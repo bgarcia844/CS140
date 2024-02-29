@@ -1,7 +1,7 @@
 ## Program that multiply the Positive Largest number by 1.0E3 
 
         .data
-val1:    .word  0x7F7FFFFF      # Positive Largest Number
+val1:    .word  0x7FFFFF      # Positive Largest Number
 val2:    .float 1000.0          # 1.0E3
 	.text
         .globl  main
